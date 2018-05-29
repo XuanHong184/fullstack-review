@@ -1,0 +1,73 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#repoList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.repoDiv {
+    align-self: center;
+    cursor: pointer;
+    border: 0.5px solid black;
+    background-color: whitesmoke;
+    width: 350px;
+    height: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.repoDiv:hover {
+    background-color: #dcdcdc;
+}
+
+.forksCount {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.nameAndRepo {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* #search {
+    width: 300px; 
+    position: fixed; 
+    margin-left: 410px; 
+} */
